@@ -1,0 +1,44 @@
+body { 
+    background-color:rgb(231, 204, 171);
+}
+h3 {
+    color:rgb(246, 183, 100);
+    font-style: italic;
+}
+.message { 
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+}
+.küp-tarif{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.küp-tarif .baslik-tarif span {
+    text-decoration: underline;
+    margin-right: 1.1rem;
+
+}
+.küp-tarif .baslik-tarif strong {
+    color: brown;
+}
+.küp-tarif .tarif-detay {
+    margin-top: 2rem;
+}
+.küp-tarif .tarif-detay .tarif-detay-baslik {
+    background-color: brown;
+    color: beige;
+    font-weight: bold;
+    padding: 0 0,25rem;
+    border-radius: 0,5rem;
+    width: max-content;
+}
+.afiyet {
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 0,5rem;
+    width: 50%;
+}
